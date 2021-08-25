@@ -10,7 +10,7 @@ document.querySelector('#form')
 
         const inputs = event.target.querySelectorAll('input, select, textarea');
 
-        let checkbox = document.querySelector('input[type=checkbox]');
+        const checkbox = document.querySelector('input[type=checkbox]');
         if (!checkbox.checked) alert('Вы не согласны с условиями?');
         
         for (let input of inputs) {            
